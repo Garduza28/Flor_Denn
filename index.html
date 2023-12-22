@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <title>Flowers</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .greetings {
+            margin-bottom: 20px;
+        }
+
+        .description {
+            margin-bottom: 20px;
+        }
+
+        .button {
+            margin-bottom: 20px;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+
+        .image-container {
+            max-width: 60%;
+            max-height: 60%;
+            margin-bottom: 20px;
+        }
+
+        .flower-button {
+            display: inline-block;
+            padding: 0;
+            border: none;
+            background: none;
+        }
+
+        .flower-button img {
+            width: 100px; /* Ajusta el ancho de la imagen según tus necesidades */
+            height: auto; /* Mantiene la proporción original de la imagen */
+        }
+
+        .video-container {
+            max-width: 33.33%; /* Divide en tres partes iguales */
+            max-height: 60%;
+            margin-bottom: 20px;
+            overflow:hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="greetings">
+        <span>💖PARA ALGUIEN MUY ESPECIAL💖</span>
+    </div>
+
+    <div class="greetings">
+        <span>✨MI</span>
+        <span>DENNIS✨</span>
+    </div>
+
+    <div class="description">
+        <span>Te espera algo bonito....Toca la flor</span>
+    </div>
+
+    <div class="button center">
+        <button class="flower-button">
+            <a href="flower.html">
+                <img src="flor.png" alt="Flor">
+            </a>
+        </button>
+    </div>
+
+    <!-- Videos en una sola fila -->
+    <div class="center">
+        <div class="video-container">
+            <video src="3.mp4" alt="Video 1" style="max-width: 90%; max-height: 90%;" controls></video>
+        </div>
+    
+        <div class="video-container">
+            <video src="2.mp4" alt="Video 2" style="max-width: 90%; max-height: 90%;" controls></video>
+        </div>
+    
+        <div class="video-container">
+            <video src="1.mp4" alt="Video 3" style="max-width: 90%; max-height: 90%;" controls></video>
+        </div>
+    </div>
+</body>
+</html>
